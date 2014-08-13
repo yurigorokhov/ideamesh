@@ -16,7 +16,7 @@ exposes an object with an `init` function which takes two arguments.
 requirejs.config
   shim:
     "../lib/jquery.typeahead": ["./jquery"]
-    "../lib/backbone": ["./underscore"]
+    "../lib/backbone": ["./underscore", "./jquery"]
     "../lib/VisualSearch/visualsearch":
       deps: ["../jquery", "./jquery.ui.autocomplete", "./jquery.ui.core", "./jquery.ui.menu", "./jquery.ui.position", "./jquery.ui.widget", "../underscore", "../backbone"]
       exports: 'VS'
